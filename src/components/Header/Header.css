@@ -1,0 +1,51 @@
+/* Container for the header */
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 15px 30px;
+    border-bottom: 1px solid #e0e0e0; /* Subtle bottom border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Heading text styling */
+.Heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40; /* Dark grey color */
+}
+
+/* Container for the button */
+.Add-articles-button {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the button */
+.Add-articles-button button {
+    background-color: #007bff; /* Primary blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.Add-articles-button button:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow on hover */
+}
+
+.Add-articles-button button:active {
+    background-color: #003f7f; /* Even darker blue for active state */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow on active */
+}
+
+.Add-articles-button button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Focus ring */
+}
