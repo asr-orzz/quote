@@ -15,7 +15,7 @@ const AppContextProvider = ({ children }) => {
     setData((prevData) =>({...prevData,[Object.keys(prevData).length+1]:newArticle}));
 
     const sendpost= async()=>{
-        const response= await fetch("https://article-34350-default-rtdb.firebaseio.com/articles.json",{
+        const response= await fetch("URL of API end point ",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
