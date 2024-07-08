@@ -49,7 +49,7 @@ const AppContextProvider = ({ children }) => {
     const fetchData = async () => {
       try {
         setisLoading(true);
-        const response = await fetch('https://article-34350-default-rtdb.firebaseio.com/articles.json');
+        const response = await fetch('URL of API end Point');
         const result = await response.json(); 
         setData(result);
         setisLoading(false);
